@@ -1,0 +1,454 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&family=Noto+Sans+Devanagari:wght@400;500;600;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ─── Base Reset ────────────────────────────────────── */
+*, *::before, *::after { box-sizing: border-box; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  margin: 0;
+  font-family: 'Noto Sans', Inter, system-ui, sans-serif;
+  background: #f0f4f9;
+  color: #0a2540;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* ─── Scrollbar ─────────────────────────────────────── */
+::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar-track { background: #e8eef6; }
+::-webkit-scrollbar-thumb { background: #b8cce0; border-radius: 4px; }
+::-webkit-scrollbar-thumb:hover { background: #8aa0b8; }
+
+/* ─── ORCA Design Tokens ────────────────────────────── */
+:root {
+  --navy:         #0a2540;
+  --deep-ocean:   #0d2137;
+  --ocean-blue:   #1e60d5;
+  --sky-blue:     #0284c7;
+  --saffron:      #ff9933;
+  --accent-orange:#ff6f00;
+  --surface:      #f0f4f9;
+  --surface-card: #ffffff;
+  --border-light: #e2eaf4;
+  --safe:         #00c853;
+  --warning:      #ffb300;
+  --danger:       #e53935;
+  --text-primary: #0a2540;
+  --text-second:  #4a6080;
+  --text-muted:   #8aa0b8;
+  --shadow-card:  0 1px 4px rgba(10,37,64,0.07), 0 4px 16px rgba(10,37,64,0.05);
+  --shadow-hover: 0 4px 20px rgba(10,37,64,0.13);
+}
+
+/* ─── Utility Classes ───────────────────────────────── */
+@layer components {
+  /* Card */
+  .orca-card, .ocra-card {
+    @apply bg-white rounded-2xl shadow-card border border-borderLight;
+  }
+
+  /* Status badge */
+  .badge-safe     { @apply inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-xs font-semibold bg-safeLight text-safeGreen; }
+  .badge-warning  { @apply inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-xs font-semibold bg-warningLight text-warningAmber; }
+  .badge-danger   { @apply inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-xs font-semibold bg-dangerLight text-dangerRed; }
+  .badge-moderate { @apply inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-xs font-semibold bg-orange-50 text-moderateOrange; }
+  .badge-blue     { @apply inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-xs font-semibold bg-blue-50 text-oceanBlue; }
+
+  /* Sidebar nav item */
+  .nav-item {
+    @apply flex items-center gap-3 px-3 py-2.5 rounded-xl text-sm font-medium text-textSecond
+           transition-all duration-150 cursor-pointer select-none;
+  }
+  .nav-item:hover  { @apply bg-surfaceMid text-navy; }
+  .nav-item.active { @apply bg-oceanBlue/10 text-oceanBlue font-semibold; }
+  .nav-item.active .nav-icon { @apply text-oceanBlue; }
+
+  /* Top bar button */
+  .topbar-btn {
+    @apply flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-sm font-medium text-textSecond
+           hover:bg-surfaceMid hover:text-navy transition-all duration-150 cursor-pointer select-none;
+  }
+
+  /* Primary button */
+  .btn-primary {
+    @apply inline-flex items-center gap-2 px-4 py-2 rounded-xl text-sm font-semibold text-white
+           bg-oceanBlue hover:bg-blue-700 active:scale-95
+           shadow-sm transition-all duration-150 cursor-pointer;
+  }
+
+  /* Ghost button */
+  .btn-ghost {
+    @apply inline-flex items-center gap-2 px-3 py-1.5 rounded-lg text-sm font-medium
+           text-textSecond hover:bg-surfaceMid hover:text-navy
+           border border-transparent hover:border-borderLight
+           transition-all duration-150 cursor-pointer;
+  }
+}
+
+/* ─── Sidebar transition ─────────────────────────────── */
+.sidebar-enter  { transform: translateX(-100%); }
+.sidebar-active { transform: translateX(0); transition: transform 0.25s ease; }
+
+/* ─── Leaflet overrides ──────────────────────────────── */
+.leaflet-container {
+  font-family: 'Noto Sans', sans-serif !important;
+  border-radius: 1rem;
+}
+.leaflet-control-attribution {
+  font-size: 10px !important;
+  background: rgba(255,255,255,0.85) !important;
+}
+.leaflet-control-zoom a {
+  border-radius: 8px !important;
+  font-size: 16px !important;
+}
+
+/* ─── Animations ─────────────────────────────────────── */
+@keyframes pulse-dot {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50%       { opacity: 0.5; transform: scale(0.85); }
+}
+.pulse-dot { animation: pulse-dot 1.8s ease-in-out infinite; }
+
+@keyframes orca-fade-in {
+  from { opacity: 0; transform: translateY(-6px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+@keyframes ocra-fade-in {
+  from { opacity: 0; transform: translateY(-6px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+.fade-in { animation: orca-fade-in 0.22s ease-out both; }
+
+@keyframes slide-right {
+  from { opacity: 0; transform: translateX(-10px); }
+  to   { opacity: 1; transform: translateX(0); }
+}
+.slide-right { animation: slide-right 0.22s ease-out both; }
+
+/* ─── Printing & Document Export Isolation ───────────── */
+@media print {
+  /* When printing an export modal, completely isolate by hiding the background app */
+  body.printing-modal-active > #root {
+    display: none !important;
+  }
+
+  /* Fallback selectors in case modal is inside #root */
+  body.printing-modal-active header,
+  body.printing-modal-active aside,
+  body.printing-modal-active footer,
+  body.printing-modal-active nav,
+  body.printing-modal-active #main-content > div > *:not(:has(.printable-modal-overlay)),
+  .print\:hidden {
+    display: none !important;
+  }
+
+  html, body {
+    background: #ffffff !important;
+    color: #0a2540 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 100% !important;
+    height: auto !important;
+    min-height: 0 !important;
+    overflow: visible !important;
+    font-size: 10.5pt !important;
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+
+  /* De-affix modal overlay so browser doesn't stamp it onto every page */
+  .printable-modal-overlay {
+    position: static !important;
+    inset: auto !important;
+    background: transparent !important;
+    backdrop-filter: none !important;
+    display: block !important;
+    width: 100% !important;
+    height: auto !important;
+    max-height: none !important;
+    overflow: visible !important;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+
+  .printable-modal-card {
+    box-shadow: none !important;
+    border: none !important;
+    border-radius: 0 !important;
+    max-width: 100% !important;
+    width: 100% !important;
+    max-height: none !important;
+    height: auto !important;
+    overflow: visible !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    background: #ffffff !important;
+  }
+
+  .printable-document {
+    width: 100% !important;
+    max-width: 100% !important;
+    height: auto !important;
+    max-height: none !important;
+    overflow: visible !important;
+    padding: 4mm 6mm !important;
+    margin: 0 !important;
+    background: #ffffff !important;
+  }
+
+  /* Prevent elements from being awkwardly cut across page splits */
+  .printable-document h1,
+  .printable-document h2,
+  .printable-document h3,
+  .printable-document .space-y-2,
+  .printable-document .grid,
+  .printable-document table,
+  .printable-document tr,
+  .printable-document .border,
+  .printable-document .rounded-2xl {
+    break-inside: avoid !important;
+    page-break-inside: avoid !important;
+  }
+
+  @page {
+    size: A4 portrait;
+    margin: 8mm;
+  }
+}
+
+/* ─── 3D AI Mascot Animations ────────────────────────────── */
+@keyframes mascotBob {
+  0%, 100% {
+    transform: translateY(0px) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-8px) rotate(-1.5deg);
+  }
+}
+
+@keyframes mascotWave {
+  0%, 100% {
+    transform: rotate(0deg) scale(1);
+  }
+  25% {
+    transform: rotate(6deg) scale(1.04);
+  }
+  50% {
+    transform: rotate(-3deg) scale(1.02);
+  }
+  75% {
+    transform: rotate(5deg) scale(1.03);
+  }
+}
+
+@keyframes scaleUp {
+  0% {
+    opacity: 0;
+    transform: scale(0.9) translateY(12px);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes mascotSpeakPulse {
+  0%, 100% {
+    transform: scale(1) translateY(0);
+    filter: drop-shadow(0 0 16px rgba(6, 182, 212, 0.95)) drop-shadow(0 0 32px rgba(14, 165, 233, 0.7));
+  }
+  30% {
+    transform: scale(1.08) translateY(-3px) rotate(2deg);
+    filter: drop-shadow(0 0 24px rgba(34, 211, 238, 1)) drop-shadow(0 0 45px rgba(6, 182, 212, 0.9));
+  }
+  60% {
+    transform: scale(0.98) translateY(1px) rotate(-1deg);
+    filter: drop-shadow(0 0 18px rgba(6, 182, 212, 0.85)) drop-shadow(0 0 30px rgba(14, 165, 233, 0.6));
+  }
+  80% {
+    transform: scale(1.05) translateY(-2px) rotate(1deg);
+    filter: drop-shadow(0 0 22px rgba(34, 211, 238, 0.95)) drop-shadow(0 0 40px rgba(6, 182, 212, 0.8));
+  }
+}
+
+@keyframes sonarRipple {
+  0% {
+    transform: scale(0.85);
+    opacity: 0.9;
+  }
+  50% {
+    opacity: 0.6;
+  }
+  100% {
+    transform: scale(2.2);
+    opacity: 0;
+  }
+}
+
+@keyframes soundBar {
+  0%, 100% { height: 4px; }
+  50% { height: 16px; }
+}
+
+.animate-mascot-speak {
+  animation: mascotSpeakPulse 1.4s ease-in-out infinite;
+}
+
+.animate-sonar-1 {
+  animation: sonarRipple 2s cubic-bezier(0, 0.2, 0.8, 1) infinite;
+}
+
+.animate-sonar-2 {
+  animation: sonarRipple 2s cubic-bezier(0, 0.2, 0.8, 1) infinite 0.6s;
+}
+
+.animate-sonar-3 {
+  animation: sonarRipple 2s cubic-bezier(0, 0.2, 0.8, 1) infinite 1.2s;
+}
+
+.animate-sound-bar-1 { animation: soundBar 0.7s ease-in-out infinite 0.1s; }
+.animate-sound-bar-2 { animation: soundBar 0.7s ease-in-out infinite 0.3s; }
+.animate-sound-bar-3 { animation: soundBar 0.7s ease-in-out infinite 0.5s; }
+.animate-sound-bar-4 { animation: soundBar 0.7s ease-in-out infinite 0.2s; }
+
+.animate-mascot-bob {
+  animation: mascotBob 4.2s ease-in-out infinite;
+}
+
+.animate-mascot-wave {
+  animation: mascotWave 1.2s ease-in-out;
+}
+
+.animate-scaleUp {
+  animation: scaleUp 0.22s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+.animate-fadeIn {
+  animation: fadeIn 0.25s ease-out forwards;
+}
+
+/* ─── 3D Map Floating Levitation Animation ─────────────── */
+@keyframes float3DMap {
+  0%, 100% {
+    transform: perspective(600px) translateY(0px) rotateY(-6deg) rotateX(5deg) scale(1);
+    filter: drop-shadow(0 5px 10px rgba(2, 132, 199, 0.28));
+  }
+  50% {
+    transform: perspective(600px) translateY(-4px) rotateY(5deg) rotateX(-4deg) scale(1.05);
+    filter: drop-shadow(0 10px 16px rgba(2, 132, 199, 0.42));
+  }
+}
+
+.animate-3d-map-float {
+  animation: float3DMap 3.2s ease-in-out infinite;
+  transform-style: preserve-3d;
+  will-change: transform, filter;
+}
+
+.animate-3d-map-float:hover {
+  animation-play-state: paused;
+  transform: perspective(600px) translateY(-2px) rotateY(0deg) rotateX(0deg) scale(1.12);
+  filter: drop-shadow(0 12px 20px rgba(2, 132, 199, 0.5));
+}
+
+/* ─── 3D Dolphin Swimming & Dynamic Ocean Loader Animations ─── */
+@keyframes dolphinSwim {
+  0% {
+    transform: translateY(0px) rotate(0deg) scaleX(1);
+  }
+  25% {
+    transform: translateY(-8px) rotate(-4deg) scaleX(1.02);
+  }
+  50% {
+    transform: translateY(0px) rotate(0deg) scaleX(1);
+  }
+  75% {
+    transform: translateY(6px) rotate(3deg) scaleX(0.99);
+  }
+  100% {
+    transform: translateY(0px) rotate(0deg) scaleX(1);
+  }
+}
+
+@keyframes dolphinGlow {
+  0%, 100% {
+    filter: drop-shadow(0 0 16px rgba(14, 165, 233, 0.75)) drop-shadow(0 0 32px rgba(6, 182, 212, 0.45));
+  }
+  50% {
+    filter: drop-shadow(0 0 26px rgba(34, 211, 238, 0.95)) drop-shadow(0 0 48px rgba(14, 165, 233, 0.7));
+  }
+}
+
+@keyframes bubbleRise {
+  0% {
+    transform: translateY(14px) scale(0.6);
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.9;
+  }
+  100% {
+    transform: translateY(-28px) scale(1.25);
+    opacity: 0;
+  }
+}
+
+@keyframes waterRipples {
+  0% {
+    transform: scale(0.85);
+    opacity: 0.8;
+  }
+  100% {
+    transform: scale(1.7);
+    opacity: 0;
+  }
+}
+
+.animate-dolphin-swim {
+  animation: dolphinSwim 3.2s ease-in-out infinite;
+}
+
+.animate-dolphin-glow {
+  animation: dolphinGlow 2.4s ease-in-out infinite;
+}
+
+.animate-bubble-1 {
+  animation: bubbleRise 2.2s ease-in infinite 0.1s;
+}
+
+.animate-bubble-2 {
+  animation: bubbleRise 2.8s ease-in infinite 0.7s;
+}
+
+.animate-bubble-3 {
+  animation: bubbleRise 2.5s ease-in infinite 1.3s;
+}
+
+.animate-water-ripple {
+  animation: waterRipples 2.4s cubic-bezier(0, 0.2, 0.8, 1) infinite;
+}
+
+
+

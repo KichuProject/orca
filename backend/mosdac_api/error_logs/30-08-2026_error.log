@@ -1,0 +1,3 @@
+30-08-2026 23:02:39 - ERROR - There was an Error encountered regarding the Validation of 'username' in Logout.
+Error Details: No Active Session found for this user.
+Solution: Please make sure you use the Correct Username associated with your MOSDAC account.

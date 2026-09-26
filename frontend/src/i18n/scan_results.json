@@ -1,0 +1,1838 @@
+{
+  "total_dict_keys": 1529,
+  "total_t_calls": 991,
+  "missing_t_count": 277,
+  "missing_t": [
+    {
+      "key": "\"What-If\" Departure Window Calculator",
+      "fallback": null,
+      "file": "components\\safety\\DepartureWindowPlanner.jsx"
+    },
+    {
+      "key": "(Proactive Safety Alerts: Cyclone, Wave, Lightning, Wind)",
+      "fallback": null,
+      "file": "components\\alerts\\HazardDetectionMatrix.jsx"
+    },
+    {
+      "key": "100% Clearance Safe",
+      "fallback": null,
+      "file": "components\\route\\RouteRiskProfileChart.jsx"
+    },
+    {
+      "key": "100% Ocean Navigable",
+      "fallback": null,
+      "file": "components\\route\\RouteOptimizationAuditCard.jsx"
+    },
+    {
+      "key": "1000 m",
+      "fallback": null,
+      "file": "components\\geofence\\BreachSimulatorCard.jsx"
+    },
+    {
+      "key": "18 Maritime Layers",
+      "fallback": null,
+      "file": "components\\route\\RouteMapCanvas.jsx"
+    },
+    {
+      "key": "24h Mean",
+      "fallback": null,
+      "file": "components\\dashboard\\ForecastTrendChart.jsx"
+    },
+    {
+      "key": "24h Peak",
+      "fallback": null,
+      "file": "components\\dashboard\\ForecastTrendChart.jsx"
+    },
+    {
+      "key": "24h Trough",
+      "fallback": null,
+      "file": "components\\dashboard\\ForecastTrendChart.jsx"
+    },
+    {
+      "key": "5000 m",
+      "fallback": null,
+      "file": "components\\geofence\\BreachSimulatorCard.jsx"
+    },
+    {
+      "key": "9-Key Metadata",
+      "fallback": null,
+      "file": "components\\data\\DatasetRegistryTable.jsx"
+    },
+    {
+      "key": "9-Key Metadata Standard",
+      "fallback": null,
+      "file": "components\\data\\DatasetRegistryTable.jsx"
+    },
+    {
+      "key": "A* Route Optimization & Safe Navigation Audit",
+      "fallback": null,
+      "file": "components\\route\\RouteOptimizationAuditCard.jsx"
+    },
+    {
+      "key": "AI Recommendation & Operational Directive",
+      "fallback": null,
+      "file": "components\\chat\\AIRecommendationPanel.jsx"
+    },
+    {
+      "key": "ARMED",
+      "fallback": null,
+      "file": "components\\geofence\\BreachSimulatorCard.jsx"
+    },
+    {
+      "key": "Action: Alter course 180° immediately! Imminent risk of foreign naval interception.",
+      "fallback": null,
+      "file": "components\\geofence\\BreachSimulatorCard.jsx"
+    },
+    {
+      "key": "Action: Alter route immediately by 045° to seaward corridor to clear MPA boundary.",
+      "fallback": null,
+      "file": "components\\geofence\\BreachSimulatorCard.jsx"
+    },
+    {
+      "key": "Active Feeds",
+      "fallback": null,
+      "file": "components\\data\\DatasetRegistryTable.jsx"
+    },
+    {
+      "key": "Active Navigational & Marine Warnings",
+      "fallback": null,
+      "file": "components\\alerts\\AlertsFeedCard.jsx"
+    },
+    {
+      "key": "Active Reef Sanctuaries Dynamic Resilience Index",
+      "fallback": null,
+      "file": "components\\ecology\\CoralBleachingGauge.jsx"
+    },
+    {
+      "key": "Active Trajectory",
+      "fallback": null,
+      "file": "components\\route\\RouteOptimizationAuditCard.jsx"
+    },
+    {
+      "key": "Active relational entity connected to your maritime domain awareness network.",
+      "fallback": null,
+      "file": "components\\reports\\KnowledgeGraphViewer.jsx"
+    },
+    {
+      "key": "Adjust cruise speed or select different ports above, then click \"Calculate Routes\" to evaluate GEBCO bathymetry, UNCLOS corridors, and multi-agent safety.",
+      "fallback": "Adjust cruise speed or select different ports above, then click \"Calculate Routes\" to evaluate GEBCO bathymetry, UNCLOS corridors, and multi-agent safety.",
+      "file": "pages\\RoutePlannerPage.jsx"
+    },
+    {
+      "key": "Affected",
+      "fallback": null,
+      "file": "components\\alerts\\AlertsFeedCard.jsx"
+    },
+    {
+      "key": "Affected",
+      "fallback": null,
+      "file": "components\\alerts\\HazardDetectionMatrix.jsx"
+    },
+    {
+      "key": "All 18",
+      "fallback": null,
+      "file": "components\\route\\RouteMapCanvas.jsx"
+    },
+    {
+      "key": "All Feeds",
+      "fallback": null,
+      "file": "components\\data\\DatasetRegistryTable.jsx"
+    },
+    {
+      "key": "Annual Observation Years (1984–",
+      "fallback": null,
+      "file": "components\\fisheries\\FAOProductivityChart.jsx"
+    },
+    {
+      "key": "Aquaculture",
+      "fallback": null,
+      "file": "components\\fisheries\\FAOProductivityChart.jsx"
+    },
+    {
+      "key": "Aquaculture Farmgate Valuation (USD Millions)",
+      "fallback": null,
+      "file": "components\\fisheries\\FAOProductivityChart.jsx"
+    },
+    {
+      "key": "Aquaculture Production",
+      "fallback": null,
+      "file": "components\\fisheries\\FAOProductivityChart.jsx"
+    },
+    {
+      "key": "Aquaculture Valuation",
+      "fallback": null,
+      "file": "components\\fisheries\\FAOProductivityChart.jsx"
+    },
+    {
+      "key": "Arrows connect your vessel directly to nearest ports, fishing zones, and hazards.",
+      "fallback": null,
+      "file": "components\\reports\\KnowledgeGraphViewer.jsx"
+    },
+    {
+      "key": "Auto-triggers warning banner at proximity gates",
+      "fallback": null,
+      "file": "components\\geofence\\BreachSimulatorCard.jsx"
+    },
+    {
+      "key": "Automated Multi-Cadence Ingestion & Telemetry Pipeline",
+      "fallback": null,
+      "file": "components\\data\\DataFreshnessDashboard.jsx"
+    },
+    {
+      "key": "Average Route Risk",
+      "fallback": null,
+      "file": "components\\route\\RouteRiskProfileChart.jsx"
+    },
+    {
+      "key": "BOUNDARY BREACH",
+      "fallback": null,
+      "file": "components\\geofence\\BreachSimulatorCard.jsx"
+    },
+    {
+      "key": "BPR Network Online",
+      "fallback": null,
+      "file": "components\\alerts\\TsunamiSection.jsx"
+    },
+    {
+      "key": "BREACH",
+      "fallback": null,
+      "file": "components\\geofence\\BreachSimulatorCard.jsx"
+    },
+    {
+      "key": "Balanced (Recommended)",
+      "fallback": null,
+      "file": "components\\route\\RouteRiskProfileChart.jsx"
+    },
+    {
+      "key": "Beaufort ${beaufort.scale}",
+      "fallback": null,
+      "file": "components\\dashboard\\OceanSnapshotGrid.jsx"
+    },
+    {
+      "key": "Biomass & Valuation",
+      "fallback": null,
+      "file": "components\\fisheries\\FAOProductivityChart.jsx"
+    },
+    {
+      "key": "Breach",
+      "fallback": null,
+      "file": "components\\geofence\\BreachSimulatorCard.jsx"
+    },
+    {
+      "key": "CAPE",
+      "fallback": null,
+      "file": "components\\dashboard\\ForecastTrendChart.jsx"
+    },
+    {
+      "key": "CLEAR STANDOFF",
+      "fallback": null,
+      "file": "components\\geofence\\BreachSimulatorCard.jsx"
+    },
+    {
+      "key": "COMPLIANT",
+      "fallback": null,
+      "file": "components\\geofence\\BreachSimulatorCard.jsx"
+    },
+    {
+      "key": "CRITICAL PROXIMITY NOTIFICATION (DANGER STANDOFF < 1000m)",
+      "fallback": null,
+      "file": "components\\geofence\\BreachSimulatorCard.jsx"
+    },
+    {
+      "key": "CRITICAL TSUNAMI ALERT ACTIVE",
+      "fallback": null,
+      "file": "components\\alerts\\TsunamiSection.jsx"
+    },
+    {
+      "key": "Cadence",
+      "fallback": null,
+      "file": "components\\data\\DatasetRegistryTable.jsx"
+    },
+    {
+      "key": "Calm Sea State",
+      "fallback": null,
+      "file": "components\\dashboard\\OceanSnapshotGrid.jsx"
+    },
+    {
+      "key": "Candidate Alternatives Evaluation & Rejection Audit:",
+      "fallback": null,
+      "file": "components\\route\\RouteOptimizationAuditCard.jsx"
+    },
+    {
+      "key": "Center Node is You",
+      "fallback": null,
+      "file": "components\\reports\\KnowledgeGraphViewer.jsx"
+    },
+    {
+      "key": "Chat Language",
+      "fallback": "Chat Language",
+      "file": "pages\\AskPage.jsx"
+    },
+    {
+      "key": "Clear Navigational Passage:",
+      "fallback": null,
+      "file": "components\\geofence\\BreachSimulatorCard.jsx"
+    },
+    {
+      "key": "Click and drag any circle to rearrange the network. Click to inspect live metrics.",
+      "fallback": null,
+      "file": "components\\reports\\KnowledgeGraphViewer.jsx"
+    },
+    {
+      "key": "Click chart milestone to inspect waypoint on map",
+      "fallback": null,
+      "file": "components\\route\\RouteRiskProfileChart.jsx"
+    },
+    {
+      "key": "Compare All",
+      "fallback": null,
+      "file": "components\\route\\RouteRiskProfileChart.jsx"
+    },
+    {
+      "key": "Comparing 3 Profiles",
+      "fallback": null,
+      "file": "components\\route\\RouteRiskProfileChart.jsx"
+    },
+    {
+      "key": "Connected Neighbors (Click to Jump):",
+      "fallback": null,
+      "file": "components\\reports\\KnowledgeGraphViewer.jsx"
+    },
+    {
+      "key": "Connecting to INCOIS Indian Tsunami Early Warning System (ITEWS)...",
+      "fallback": null,
+      "file": "components\\alerts\\TsunamiSection.jsx"
+    },
+    {
+      "key": "Connecting to live high-resolution marine telemetry...",
+      "fallback": null,
+      "file": "components\\dashboard\\ForecastTrendChart.jsx"
+    },
+    {
+      "key": "Consensus Confidence",
+      "fallback": null,
+      "file": "components\\chat\\AIRecommendationPanel.jsx"
+    },
+    {
+      "key": "Continuous bathymetric, swell & traffic hazard profile along planned transit",
+      "fallback": null,
+      "file": "components\\route\\RouteRiskProfileChart.jsx"
+    },
+    {
+      "key": "Convection Threshold",
+      "fallback": null,
+      "file": "components\\dashboard\\ForecastTrendChart.jsx"
+    },
+    {
+      "key": "Conversational AI Map Control Active",
+      "fallback": null,
+      "file": "components\\chat\\ChatInteractiveMap.jsx"
+    },
+    {
+      "key": "Copied!",
+      "fallback": null,
+      "file": "components\\data\\DatasetRegistryTable.jsx"
+    },
+    {
+      "key": "Copy 9-Key JSON",
+      "fallback": null,
+      "file": "components\\data\\DatasetRegistryTable.jsx"
+    },
+    {
+      "key": "Corridor",
+      "fallback": null,
+      "file": "components\\route\\RouteRiskProfileChart.jsx"
+    },
+    {
+      "key": "Critical Exposure",
+      "fallback": null,
+      "file": "components\\route\\RouteRiskProfileChart.jsx"
+    },
+    {
+      "key": "Current Fix",
+      "fallback": null,
+      "file": "components\\dashboard\\ForecastTrendChart.jsx"
+    },
+    {
+      "key": "DANGER ALERT",
+      "fallback": null,
+      "file": "components\\geofence\\BreachSimulatorCard.jsx"
+    },
+    {
+      "key": "Danger Standoff",
+      "fallback": null,
+      "file": "components\\geofence\\BreachSimulatorCard.jsx"
+    },
+    {
+      "key": "Departure Hold Advised — The corridors below represent emergency standoff routes with maximum hazard avoidance.",
+      "fallback": null,
+      "file": "components\\route\\MultiAgentRouteClearanceCard.jsx"
+    },
+    {
+      "key": "Departure Time:",
+      "fallback": null,
+      "file": "components\\route\\RouteSelectorCard.jsx"
+    },
+    {
+      "key": "Derived live from Oceansat-3 thermal anomaly",
+      "fallback": null,
+      "file": "components\\ecology\\CoralBleachingGauge.jsx"
+    },
+    {
+      "key": "Direct Range:",
+      "fallback": null,
+      "file": "components\\reports\\KnowledgeGraphViewer.jsx"
+    },
+    {
+      "key": "Direct Transit Approved — All 3 route corridors are verified safe and navigable.",
+      "fallback": null,
+      "file": "components\\route\\MultiAgentRouteClearanceCard.jsx"
+    },
+    {
+      "key": "Dist. to India",
+      "fallback": null,
+      "file": "components\\alerts\\TsunamiSection.jsx"
+    },
+    {
+      "key": "Dist. to Vessel",
+      "fallback": null,
+      "file": "components\\alerts\\TsunamiSection.jsx"
+    },
+    {
+      "key": "Dominant gear in Indian Ocean: ${dominantGearName} (${dominantGearPct}). Total observed fishing effort: ${totalHours}M hours. Foreign vessels account for ${foreignEffort}% of outer EEZ activity.",
+      "fallback": null,
+      "file": "components\\fisheries\\FleetActivityCard.jsx"
+    },
+    {
+      "key": "Drag circles to move • Scroll to zoom • Drag canvas to pan",
+      "fallback": null,
+      "file": "components\\reports\\KnowledgeGraphViewer.jsx"
+    },
+    {
+      "key": "Drag, Pan & Zoom",
+      "fallback": null,
+      "file": "components\\reports\\KnowledgeGraphViewer.jsx"
+    },
+    {
+      "key": "Ecological GIS Layer Engine (MPA • Wetlands • Ramsar • Coral • Biodiversity)",
+      "fallback": null,
+      "file": "pages\\EcologyPage.jsx"
+    },
+    {
+      "key": "Edges",
+      "fallback": null,
+      "file": "components\\reports\\KnowledgeGraphViewer.jsx"
+    },
+    {
+      "key": "Elevated Caution",
+      "fallback": null,
+      "file": "components\\route\\RouteOptimizationAuditCard.jsx"
+    },
+    {
+      "key": "Enforcement Watch:",
+      "fallback": null,
+      "file": "components\\geofence\\BreachSimulatorCard.jsx"
+    },
+    {
+      "key": "Epicenter Coordinates",
+      "fallback": null,
+      "file": "components\\alerts\\TsunamiSection.jsx"
+    },
+    {
+      "key": "Events (90d)",
+      "fallback": null,
+      "file": "components\\alerts\\TsunamiSection.jsx"
+    },
+    {
+      "key": "Exceeds Limit",
+      "fallback": null,
+      "file": "components\\dashboard\\OceanSnapshotGrid.jsx"
+    },
+    {
+      "key": "Exceeds limit",
+      "fallback": null,
+      "file": "components\\dashboard\\ForecastTrendChart.jsx"
+    },
+    {
+      "key": "Fastest (Inshore Lane)",
+      "fallback": null,
+      "file": "components\\route\\RouteRiskProfileChart.jsx"
+    },
+    {
+      "key": "Fix: ${t(activeZoneObj.name)}",
+      "fallback": null,
+      "file": "components\\geofence\\MaritimeZoneHierarchyCard.jsx"
+    },
+    {
+      "key": "Forecast Active",
+      "fallback": null,
+      "file": "pages\\OceanExplorer.jsx"
+    },
+    {
+      "key": "Forecast Mode",
+      "fallback": null,
+      "file": "pages\\OceanExplorer.jsx"
+    },
+    {
+      "key": "Forecasted sea state safety calibrated to",
+      "fallback": null,
+      "file": "components\\safety\\DepartureWindowPlanner.jsx"
+    },
+    {
+      "key": "Grid-weighted A* pathfinder computes",
+      "fallback": null,
+      "file": "components\\route\\RouteCalculationCriteriaBanner.jsx"
+    },
+    {
+      "key": "Guide",
+      "fallback": null,
+      "file": "components\\reports\\KnowledgeGraphViewer.jsx"
+    },
+    {
+      "key": "Guiding Authority",
+      "fallback": null,
+      "file": "components\\about\\StatutoryComplianceBanner.jsx"
+    },
+    {
+      "key": "Gulf of Mannar Marine Biosphere Reserve (WDPA MPA #317208)",
+      "fallback": null,
+      "file": "components\\geofence\\BreachSimulatorCard.jsx"
+    },
+    {
+      "key": "HARBOUR HOLD — EMERGENCY TRACK ONLY",
+      "fallback": null,
+      "file": "components\\route\\MultiAgentRouteClearanceCard.jsx"
+    },
+    {
+      "key": "Harmonic water level forecast. Check draft depth before crossing shallow bars.",
+      "fallback": null,
+      "file": "components\\reports\\KnowledgeGraphViewer.jsx"
+    },
+    {
+      "key": "Hazards Evaded via A* Path Optimization:",
+      "fallback": null,
+      "file": "components\\route\\RouteOptimizationAuditCard.jsx"
+    },
+    {
+      "key": "Hide Bulletin",
+      "fallback": null,
+      "file": "components\\alerts\\TsunamiSection.jsx"
+    },
+    {
+      "key": "High Water",
+      "fallback": null,
+      "file": "components\\dashboard\\ForecastTrendChart.jsx"
+    },
+    {
+      "key": "High plankton density area where commercial fish naturally aggregate. Plan transit directly to this sector.",
+      "fallback": null,
+      "file": "components\\reports\\KnowledgeGraphViewer.jsx"
+    },
+    {
+      "key": "How Anyone Can Read This Graph:",
+      "fallback": null,
+      "file": "components\\reports\\KnowledgeGraphViewer.jsx"
+    },
+    {
+      "key": "IMBL Border Crossing",
+      "fallback": null,
+      "file": "components\\geofence\\BreachSimulatorCard.jsx"
+    },
+    {
+      "key": "INCOIS ITEWC Hyderabad",
+      "fallback": null,
+      "file": "components\\alerts\\TsunamiSection.jsx"
+    },
+    {
+      "key": "INCOIS Indian Tsunami Early Warning Centre (ITEWC) • 24x7 Deep Ocean Bottom Pressure & Seismic Surveillance",
+      "fallback": null,
+      "file": "components\\alerts\\AlertsFeedCard.jsx"
+    },
+    {
+      "key": "INCOIS Tsunami (ITEWS)",
+      "fallback": null,
+      "file": "components\\alerts\\AlertsFeedCard.jsx"
+    },
+    {
+      "key": "Index Rating:",
+      "fallback": null,
+      "file": "components\\reports\\KnowledgeGraphViewer.jsx"
+    },
+    {
+      "key": "India Coast Impact",
+      "fallback": null,
+      "file": "components\\alerts\\TsunamiSection.jsx"
+    },
+    {
+      "key": "India – Sri Lanka Sovereign IMBL Line (Palk Strait / Gulf of Mannar)",
+      "fallback": null,
+      "file": "components\\geofence\\BreachSimulatorCard.jsx"
+    },
+    {
+      "key": "India's unified autonomous marine intelligence platform integrating multi-satellite earth observation, oceanographic physics, and LangChain agentic reasoning for fishermen, mariners, and coastal stewards.",
+      "fallback": null,
+      "file": "components\\about\\PlatformVisionCard.jsx"
+    },
+    {
+      "key": "Inland & Coastal Aquaculture (tonnes)",
+      "fallback": null,
+      "file": "components\\fisheries\\FAOProductivityChart.jsx"
+    },
+    {
+      "key": "Inland Epicenter",
+      "fallback": null,
+      "file": "components\\alerts\\TsunamiSection.jsx"
+    },
+    {
+      "key": "Interactive relational intelligence linking sensors, hazards, bathymetry & vessels",
+      "fallback": null,
+      "file": "components\\reports\\KnowledgeGraphViewer.jsx"
+    },
+    {
+      "key": "International Maritime Boundary (UNCLOS Treaty 1974/1976)",
+      "fallback": null,
+      "file": "components\\geofence\\BreachSimulatorCard.jsx"
+    },
+    {
+      "key": "International Maritime Boundary Line (IMBL) Crossing Demo",
+      "fallback": null,
+      "file": "components\\geofence\\BreachSimulatorCard.jsx"
+    },
+    {
+      "key": "Jump to:",
+      "fallback": null,
+      "file": "components\\geofence\\BreachSimulatorCard.jsx"
+    },
+    {
+      "key": "Last Updated",
+      "fallback": null,
+      "file": "components\\data\\DatasetRegistryTable.jsx"
+    },
+    {
+      "key": "Latency",
+      "fallback": null,
+      "file": "components\\data\\DatasetRegistryTable.jsx"
+    },
+    {
+      "key": "Latency & Cadence",
+      "fallback": null,
+      "file": "components\\data\\DatasetRegistryTable.jsx"
+    },
+    {
+      "key": "Lines Mean Relationships",
+      "fallback": null,
+      "file": "components\\reports\\KnowledgeGraphViewer.jsx"
+    },
+    {
+      "key": "Live Dynamic NetworkX",
+      "fallback": null,
+      "file": "components\\reports\\KnowledgeGraphViewer.jsx"
+    },
+    {
+      "key": "Live Maritime Narrative • Executive Briefing",
+      "fallback": null,
+      "file": "components\\reports\\KnowledgeGraphViewer.jsx"
+    },
+    {
+      "key": "Live Now (0h)",
+      "fallback": null,
+      "file": "pages\\OceanExplorer.jsx"
+    },
+    {
+      "key": "Live Real-Time",
+      "fallback": null,
+      "file": "components\\ocean\\TimeScrubber.jsx"
+    },
+    {
+      "key": "Live SST",
+      "fallback": null,
+      "file": "components\\ecology\\CoralBleachingGauge.jsx"
+    },
+    {
+      "key": "Live Telemetry:",
+      "fallback": null,
+      "file": "components\\reports\\KnowledgeGraphViewer.jsx"
+    },
+    {
+      "key": "Live Time Series",
+      "fallback": null,
+      "file": "components\\fisheries\\FAOProductivityChart.jsx"
+    },
+    {
+      "key": "Location",
+      "fallback": null,
+      "file": "components\\alerts\\AlertsFeedCard.jsx"
+    },
+    {
+      "key": "Location",
+      "fallback": null,
+      "file": "components\\alerts\\HazardDetectionMatrix.jsx"
+    },
+    {
+      "key": "Map Layers (18)",
+      "fallback": null,
+      "file": "components\\route\\RouteMapCanvas.jsx"
+    },
+    {
+      "key": "Marine Capture",
+      "fallback": null,
+      "file": "components\\fisheries\\FAOProductivityChart.jsx"
+    },
+    {
+      "key": "Marine Protected Area (MPA) / Eco-Sensitive Zone",
+      "fallback": null,
+      "file": "components\\geofence\\BreachSimulatorCard.jsx"
+    },
+    {
+      "key": "Marine Seafloor",
+      "fallback": null,
+      "file": "components\\alerts\\TsunamiSection.jsx"
+    },
+    {
+      "key": "Marine Wild Capture (tonnes)",
+      "fallback": null,
+      "file": "components\\fisheries\\FAOProductivityChart.jsx"
+    },
+    {
+      "key": "Maritime Domain Research & Innovation Prototype",
+      "fallback": null,
+      "file": "pages\\AboutPage.jsx"
+    },
+    {
+      "key": "Maritime Regulatory Reference Frameworks & Standards",
+      "fallback": null,
+      "file": "components\\about\\StatutoryComplianceBanner.jsx"
+    },
+    {
+      "key": "Max Magnitude",
+      "fallback": null,
+      "file": "components\\alerts\\TsunamiSection.jsx"
+    },
+    {
+      "key": "Min Sea Depth (UKC)",
+      "fallback": null,
+      "file": "components\\route\\RouteRiskProfileChart.jsx"
+    },
+    {
+      "key": "Minimal Hazard Exposure",
+      "fallback": null,
+      "file": "components\\route\\RouteOptimizationAuditCard.jsx"
+    },
+    {
+      "key": "Moderate Coastal Chop",
+      "fallback": null,
+      "file": "components\\route\\RouteRiskProfileChart.jsx"
+    },
+    {
+      "key": "Monitored Earthquakes & Deep Ocean Bulletins (Past 90 Days)",
+      "fallback": null,
+      "file": "components\\alerts\\TsunamiSection.jsx"
+    },
+    {
+      "key": "Monitoring",
+      "fallback": null,
+      "file": "pages\\SafetyAdvisoryPage.jsx"
+    },
+    {
+      "key": "My GPS",
+      "fallback": null,
+      "file": "components\\chat\\ChatInteractiveMap.jsx"
+    },
+    {
+      "key": "NATIONAL STATUS: NO TSUNAMI THREAT FOR INDIA",
+      "fallback": null,
+      "file": "components\\alerts\\TsunamiSection.jsx"
+    },
+    {
+      "key": "NO THREAT FOR INDIA",
+      "fallback": null,
+      "file": "components\\alerts\\TsunamiSection.jsx"
+    },
+    {
+      "key": "Nearest Epicenter",
+      "fallback": null,
+      "file": "components\\alerts\\TsunamiSection.jsx"
+    },
+    {
+      "key": "No Fog / Good Line of Sight",
+      "fallback": null,
+      "file": "components\\dashboard\\OceanSnapshotGrid.jsx"
+    },
+    {
+      "key": "No direct connected links.",
+      "fallback": null,
+      "file": "components\\reports\\KnowledgeGraphViewer.jsx"
+    },
+    {
+      "key": "No saved locations yet. Click \"Save\" in the top-right to bookmark locations.",
+      "fallback": null,
+      "file": "components\\layout\\LocationSelector.jsx"
+    },
+    {
+      "key": "No seismic events reported in the past 90 days.",
+      "fallback": null,
+      "file": "components\\alerts\\TsunamiSection.jsx"
+    },
+    {
+      "key": "Nodes",
+      "fallback": null,
+      "file": "components\\reports\\KnowledgeGraphViewer.jsx"
+    },
+    {
+      "key": "Normal Range",
+      "fallback": null,
+      "file": "components\\dashboard\\OceanSnapshotGrid.jsx"
+    },
+    {
+      "key": "OCEANOGRAPHIC RESEARCH • INTEGRATED MARITIME DOMAIN AWARENESS PROTOTYPE",
+      "fallback": null,
+      "file": "components\\about\\PlatformVisionCard.jsx"
+    },
+    {
+      "key": "OGC Contracts & Schemas",
+      "fallback": null,
+      "file": "components\\data\\DatasetRegistryTable.jsx"
+    },
+    {
+      "key": "ORCA Marine Source Registry & Provenance Architecture",
+      "fallback": null,
+      "file": "components\\data\\DatasetRegistryTable.jsx"
+    },
+    {
+      "key": "ORCA Maritime Intelligence Platform • Version 2.4.0 (Prototype Demonstration)",
+      "fallback": null,
+      "file": "pages\\AboutPage.jsx"
+    },
+    {
+      "key": "Ocean Telemetry",
+      "fallback": null,
+      "file": "components\\alerts\\TsunamiSection.jsx"
+    },
+    {
+      "key": "Official Bulletin Number",
+      "fallback": null,
+      "file": "components\\alerts\\TsunamiSection.jsx"
+    },
+    {
+      "key": "Official INCOIS ITEWC Evaluation",
+      "fallback": null,
+      "file": "components\\alerts\\TsunamiSection.jsx"
+    },
+    {
+      "key": "Official Public Guidance & Advice",
+      "fallback": null,
+      "file": "components\\alerts\\TsunamiSection.jsx"
+    },
+    {
+      "key": "Official marine clearance assessment. Conditions conform to safety rules.",
+      "fallback": null,
+      "file": "components\\reports\\KnowledgeGraphViewer.jsx"
+    },
+    {
+      "key": "Open Official INCOIS NTWC Raw JSON Bulletin",
+      "fallback": null,
+      "file": "components\\alerts\\TsunamiSection.jsx"
+    },
+    {
+      "key": "Open Portal",
+      "fallback": null,
+      "file": "components\\data\\DatasetRegistryTable.jsx"
+    },
+    {
+      "key": "Open-Meteo ECMWF Ensemble & INCOIS Tidal Harmonics",
+      "fallback": null,
+      "file": "components\\dashboard\\ForecastTrendChart.jsx"
+    },
+    {
+      "key": "Operational Feed & Source",
+      "fallback": null,
+      "file": "components\\data\\DatasetRegistryTable.jsx"
+    },
+    {
+      "key": "Operational Feed Provenance (9-Key Schema)",
+      "fallback": null,
+      "file": "components\\data\\DatasetRegistryTable.jsx"
+    },
+    {
+      "key": "Operational Meaning:",
+      "fallback": null,
+      "file": "components\\reports\\KnowledgeGraphViewer.jsx"
+    },
+    {
+      "key": "Operational Quality & Calibration",
+      "fallback": null,
+      "file": "components\\data\\DatasetRegistryTable.jsx"
+    },
+    {
+      "key": "Operational Source Registry",
+      "fallback": null,
+      "file": "components\\data\\DatasetRegistryTable.jsx"
+    },
+    {
+      "key": "Optimal Pelagic Range (27–30.5°C)",
+      "fallback": null,
+      "file": "components\\dashboard\\OceanSnapshotGrid.jsx"
+    },
+    {
+      "key": "Optimal Safe Path",
+      "fallback": null,
+      "file": "components\\route\\RouteOptimizationAuditCard.jsx"
+    },
+    {
+      "key": "PROTOTYPE REFERENCE BENCHMARK",
+      "fallback": null,
+      "file": "components\\about\\StatutoryComplianceBanner.jsx"
+    },
+    {
+      "key": "PROXIMITY WARNING",
+      "fallback": null,
+      "file": "components\\geofence\\BreachSimulatorCard.jsx"
+    },
+    {
+      "key": "PROXIMITY WARNING (BUFFER < 5000m)",
+      "fallback": null,
+      "file": "components\\geofence\\BreachSimulatorCard.jsx"
+    },
+    {
+      "key": "PS Demonstration",
+      "fallback": null,
+      "file": "components\\geofence\\BreachSimulatorCard.jsx"
+    },
+    {
+      "key": "PS Safe-Navigation Compliance",
+      "fallback": null,
+      "file": "components\\route\\RouteOptimizationAuditCard.jsx"
+    },
+    {
+      "key": "Past Gate",
+      "fallback": null,
+      "file": "components\\geofence\\BreachSimulatorCard.jsx"
+    },
+    {
+      "key": "Pause Demo",
+      "fallback": null,
+      "file": "components\\geofence\\BreachSimulatorCard.jsx"
+    },
+    {
+      "key": "Peak Marine Capture",
+      "fallback": null,
+      "file": "components\\fisheries\\FAOProductivityChart.jsx"
+    },
+    {
+      "key": "Peak Risk Along Route",
+      "fallback": null,
+      "file": "components\\route\\RouteRiskProfileChart.jsx"
+    },
+    {
+      "key": "Physical hazard detour verification • 8 marine parameters • Alternative trajectory rejection audit",
+      "fallback": null,
+      "file": "components\\route\\RouteOptimizationAuditCard.jsx"
+    },
+    {
+      "key": "Portal",
+      "fallback": null,
+      "file": "components\\data\\DatasetRegistryTable.jsx"
+    },
+    {
+      "key": "Positive Keel Clearance",
+      "fallback": null,
+      "file": "components\\route\\RouteRiskProfileChart.jsx"
+    },
+    {
+      "key": "Precipitation Active",
+      "fallback": null,
+      "file": "components\\dashboard\\OceanSnapshotGrid.jsx"
+    },
+    {
+      "key": "Prepare navigational waypoint alteration. Reduce speed and verify radar clearance to stay clear of restricted coordinates.",
+      "fallback": null,
+      "file": "components\\geofence\\BreachSimulatorCard.jsx"
+    },
+    {
+      "key": "Prototype simulation & algorithmic decision modeling aligned with established international and national maritime conventions",
+      "fallback": null,
+      "file": "components\\about\\StatutoryComplianceBanner.jsx"
+    },
+    {
+      "key": "Proximity Hierarchy & Warning Gates",
+      "fallback": null,
+      "file": "components\\geofence\\BreachSimulatorCard.jsx"
+    },
+    {
+      "key": "Quality & Calibration",
+      "fallback": null,
+      "file": "components\\data\\DatasetRegistryTable.jsx"
+    },
+    {
+      "key": "Range",
+      "fallback": null,
+      "file": "components\\geofence\\BreachSimulatorCard.jsx"
+    },
+    {
+      "key": "Real-Time Geospatial Feeds",
+      "fallback": null,
+      "file": "components\\alerts\\HazardDetectionMatrix.jsx"
+    },
+    {
+      "key": "Real-Time Surveillance Active",
+      "fallback": null,
+      "file": "pages\\EcologyPage.jsx"
+    },
+    {
+      "key": "Real-time Commercial Fishing Events • FAO Major Areas • INCOIS Thermal Fronts",
+      "fallback": null,
+      "file": "pages\\FisheriesIntelligencePage.jsx"
+    },
+    {
+      "key": "Real-time sensor observation stream verified against satellite ground-truth.",
+      "fallback": null,
+      "file": "components\\reports\\KnowledgeGraphViewer.jsx"
+    },
+    {
+      "key": "Reason for Selection:",
+      "fallback": null,
+      "file": "components\\route\\RouteOptimizationAuditCard.jsx"
+    },
+    {
+      "key": "Reduced Visibility",
+      "fallback": null,
+      "file": "components\\dashboard\\OceanSnapshotGrid.jsx"
+    },
+    {
+      "key": "Reference Standards Aligned",
+      "fallback": null,
+      "file": "pages\\AboutPage.jsx"
+    },
+    {
+      "key": "Refreshed on each decision step",
+      "fallback": null,
+      "file": "components\\data\\DatasetRegistryTable.jsx"
+    },
+    {
+      "key": "Refreshing...",
+      "fallback": null,
+      "file": "pages\\SafetyAdvisoryPage.jsx"
+    },
+    {
+      "key": "Reset",
+      "fallback": null,
+      "file": "components\\route\\RouteMapCanvas.jsx"
+    },
+    {
+      "key": "Reset",
+      "fallback": null,
+      "file": "pages\\OceanExplorer.jsx"
+    },
+    {
+      "key": "Reset to 8,000m",
+      "fallback": null,
+      "file": "components\\geofence\\BreachSimulatorCard.jsx"
+    },
+    {
+      "key": "Reset to Live",
+      "fallback": null,
+      "file": "pages\\OceanExplorer.jsx"
+    },
+    {
+      "key": "Restricted MPA Zone",
+      "fallback": null,
+      "file": "components\\geofence\\BreachSimulatorCard.jsx"
+    },
+    {
+      "key": "Restricted Marine Zone (MPA / Sanctuary) Proximity Demo",
+      "fallback": null,
+      "file": "components\\geofence\\BreachSimulatorCard.jsx"
+    },
+    {
+      "key": "Risk Score",
+      "fallback": null,
+      "file": "components\\route\\RouteOptimizationAuditCard.jsx"
+    },
+    {
+      "key": "Rough Sea State",
+      "fallback": null,
+      "file": "components\\dashboard\\OceanSnapshotGrid.jsx"
+    },
+    {
+      "key": "Route Risk Profile (Risk vs. Distance)",
+      "fallback": null,
+      "file": "components\\route\\RouteRiskProfileChart.jsx"
+    },
+    {
+      "key": "SAFE DETOUR ROUTE APPROVED",
+      "fallback": null,
+      "file": "components\\route\\MultiAgentRouteClearanceCard.jsx"
+    },
+    {
+      "key": "SST Forecast",
+      "fallback": null,
+      "file": "components\\ocean\\OceanSensorRibbon.jsx"
+    },
+    {
+      "key": "Safe Alternative Routes Available & Plotted Below — Inspect Fastest, Balanced, and Safest profiles.",
+      "fallback": null,
+      "file": "components\\route\\MultiAgentRouteClearanceCard.jsx"
+    },
+    {
+      "key": "Safest (Deep Water >50m)",
+      "fallback": null,
+      "file": "components\\route\\RouteRiskProfileChart.jsx"
+    },
+    {
+      "key": "Search entity or sensor...",
+      "fallback": null,
+      "file": "components\\reports\\KnowledgeGraphViewer.jsx"
+    },
+    {
+      "key": "Search feeds, sources, quality...",
+      "fallback": null,
+      "file": "components\\data\\DatasetRegistryTable.jsx"
+    },
+    {
+      "key": "Seismic Records",
+      "fallback": null,
+      "file": "components\\alerts\\TsunamiSection.jsx"
+    },
+    {
+      "key": "Selected Route",
+      "fallback": null,
+      "file": "components\\route\\RouteOptimizationAuditCard.jsx"
+    },
+    {
+      "key": "Shore: ${distanceToCoastKm.toFixed(1)} km (${distNm} nm)",
+      "fallback": null,
+      "file": "components\\geofence\\MaritimeZoneHierarchyCard.jsx"
+    },
+    {
+      "key": "Simulated Standoff Distance to Boundary:",
+      "fallback": null,
+      "file": "components\\geofence\\BreachSimulatorCard.jsx"
+    },
+    {
+      "key": "Source: FAO Global Fishery & Aquaculture Statistics v2026.1",
+      "fallback": null,
+      "file": "components\\fisheries\\FAOProductivityChart.jsx"
+    },
+    {
+      "key": "Spatial Res",
+      "fallback": null,
+      "file": "components\\data\\DatasetRegistryTable.jsx"
+    },
+    {
+      "key": "Specialized Agent Consensus Breakdown",
+      "fallback": null,
+      "file": "components\\chat\\AIRecommendationPanel.jsx"
+    },
+    {
+      "key": "Squall Limit",
+      "fallback": null,
+      "file": "components\\dashboard\\ForecastTrendChart.jsx"
+    },
+    {
+      "key": "Standardized 9-Key Evidence Record (JSON)",
+      "fallback": null,
+      "file": "components\\data\\DatasetRegistryTable.jsx"
+    },
+    {
+      "key": "Standardized 9-Key Metadata Schema",
+      "fallback": null,
+      "file": "components\\data\\DatasetRegistryTable.jsx"
+    },
+    {
+      "key": "Streaming official FAO FishStatJ multi-decade fisheries time series...",
+      "fallback": null,
+      "file": "components\\fisheries\\FAOProductivityChart.jsx"
+    },
+    {
+      "key": "Strict provenance tracking across INCOIS, IMD, ISRO, Copernicus, Open-Meteo, and UNCLOS for reliable, evidence-backed marine decision making.",
+      "fallback": null,
+      "file": "components\\data\\DatasetRegistryTable.jsx"
+    },
+    {
+      "key": "Sub-optimal Pelagic Range",
+      "fallback": null,
+      "file": "components\\dashboard\\OceanSnapshotGrid.jsx"
+    },
+    {
+      "key": "Sync ITEWS Feeds",
+      "fallback": null,
+      "file": "components\\alerts\\AlertsFeedCard.jsx"
+    },
+    {
+      "key": "Sync to Live Sensor",
+      "fallback": null,
+      "file": "components\\geofence\\BreachSimulatorCard.jsx"
+    },
+    {
+      "key": "Synthesizing dynamic multi-entity relational graph from 7 live telemetry tools...",
+      "fallback": null,
+      "file": "components\\reports\\KnowledgeGraphViewer.jsx"
+    },
+    {
+      "key": "System State",
+      "fallback": null,
+      "file": "components\\geofence\\BreachSimulatorCard.jsx"
+    },
+    {
+      "key": "THREAT",
+      "fallback": null,
+      "file": "components\\alerts\\AlertsFeedCard.jsx"
+    },
+    {
+      "key": "THREAT ACTIVE",
+      "fallback": null,
+      "file": "components\\alerts\\TsunamiSection.jsx"
+    },
+    {
+      "key": "Tactical PFZ Satellite Fix & Fisheries GIS",
+      "fallback": null,
+      "file": "pages\\FisheriesIntelligencePage.jsx"
+    },
+    {
+      "key": "The Indian Tsunami Early Warning Centre (ITEWC) operates real-time deep ocean bottom pressure recorders (BPRs), coastal tide gauges, and seismic stations to assess tsunamigenic subduction earthquakes across the Sunda Trench & Makran Subduction Zone.",
+      "fallback": null,
+      "file": "components\\alerts\\TsunamiSection.jsx"
+    },
+    {
+      "key": "The dark navy circle represents your vessel fix and origin coordinates.",
+      "fallback": null,
+      "file": "components\\reports\\KnowledgeGraphViewer.jsx"
+    },
+    {
+      "key": "Threat Level",
+      "fallback": null,
+      "file": "components\\alerts\\TsunamiSection.jsx"
+    },
+    {
+      "key": "Tide",
+      "fallback": null,
+      "file": "components\\dashboard\\ForecastTrendChart.jsx"
+    },
+    {
+      "key": "Topography & Bathymetry",
+      "fallback": null,
+      "file": "components\\alerts\\TsunamiSection.jsx"
+    },
+    {
+      "key": "Transit ETA",
+      "fallback": null,
+      "file": "components\\route\\RouteOptimizationAuditCard.jsx"
+    },
+    {
+      "key": "UNCLOS 1982 Sovereign Waters Treaty • Indian Coast Guard & Sri Lanka Navy surveillance",
+      "fallback": null,
+      "file": "components\\geofence\\BreachSimulatorCard.jsx"
+    },
+    {
+      "key": "UNCLOS territorial sovereignty applies. Keep VHF radio watch on Channel 16.",
+      "fallback": null,
+      "file": "components\\reports\\KnowledgeGraphViewer.jsx"
+    },
+    {
+      "key": "UNESCO-IOC OBIS Species Points • UNEP-WCMC Coral Occurrences • Ramsar Sites • WDPA Sanctuaries",
+      "fallback": null,
+      "file": "pages\\EcologyPage.jsx"
+    },
+    {
+      "key": "Use the Layer Switcher to toggle Coral Occurrences, Ramsar Wetlands, and Marine Sanctuaries",
+      "fallback": null,
+      "file": "pages\\EcologyPage.jsx"
+    },
+    {
+      "key": "Valid Time",
+      "fallback": null,
+      "file": "components\\alerts\\AlertsFeedCard.jsx"
+    },
+    {
+      "key": "Valid Time",
+      "fallback": null,
+      "file": "components\\alerts\\HazardDetectionMatrix.jsx"
+    },
+    {
+      "key": "Verdict Reason:",
+      "fallback": null,
+      "file": "components\\route\\RouteOptimizationAuditCard.jsx"
+    },
+    {
+      "key": "Vessel maintains safe margin of",
+      "fallback": null,
+      "file": "components\\geofence\\BreachSimulatorCard.jsx"
+    },
+    {
+      "key": "View Evaluation",
+      "fallback": null,
+      "file": "components\\alerts\\TsunamiSection.jsx"
+    },
+    {
+      "key": "Visible Hazard Detection Matrix",
+      "fallback": null,
+      "file": "components\\alerts\\HazardDetectionMatrix.jsx"
+    },
+    {
+      "key": "Warning Buffer",
+      "fallback": null,
+      "file": "components\\geofence\\BreachSimulatorCard.jsx"
+    },
+    {
+      "key": "Warning issued. Review squall timing before departure.",
+      "fallback": null,
+      "file": "components\\reports\\KnowledgeGraphViewer.jsx"
+    },
+    {
+      "key": "Warning: vessel is approaching a restricted marine zone.",
+      "fallback": null,
+      "file": "components\\geofence\\BreachSimulatorCard.jsx"
+    },
+    {
+      "key": "Warning: vessel is approaching buffer zone",
+      "fallback": null,
+      "file": "components\\geofence\\BreachSimulatorCard.jsx"
+    },
+    {
+      "key": "Warning: vessel is approaching international maritime boundary line (IMBL).",
+      "fallback": null,
+      "file": "components\\geofence\\BreachSimulatorCard.jsx"
+    },
+    {
+      "key": "Wave Forecast",
+      "fallback": null,
+      "file": "components\\ocean\\OceanSensorRibbon.jsx"
+    },
+    {
+      "key": "Wildlife Protection Act 1972 & Indian Fisheries Act • All mechanized bottom trawling prohibited",
+      "fallback": null,
+      "file": "components\\geofence\\BreachSimulatorCard.jsx"
+    },
+    {
+      "key": "Wind Forecast",
+      "fallback": null,
+      "file": "components\\ocean\\OceanSensorRibbon.jsx"
+    },
+    {
+      "key": "Within safe envelope",
+      "fallback": null,
+      "file": "components\\dashboard\\ForecastTrendChart.jsx"
+    },
+    {
+      "key": "Your active GPS fix and navigation origin. All bearings and safety thresholds are calibrated to this point.",
+      "fallback": null,
+      "file": "components\\reports\\KnowledgeGraphViewer.jsx"
+    },
+    {
+      "key": "Your closest certified shelter haven. In the event of squalls or mechanical fault, divert here.",
+      "fallback": null,
+      "file": "components\\reports\\KnowledgeGraphViewer.jsx"
+    },
+    {
+      "key": "Zero Critical Breaches",
+      "fallback": null,
+      "file": "components\\route\\RouteRiskProfileChart.jsx"
+    },
+    {
+      "key": "Zero Hazard (Nil)",
+      "fallback": null,
+      "file": "components\\alerts\\TsunamiSection.jsx"
+    },
+    {
+      "key": "alerts active",
+      "fallback": null,
+      "file": "components\\alerts\\AlertsFeedCard.jsx"
+    },
+    {
+      "key": "analyzed events",
+      "fallback": null,
+      "file": "components\\alerts\\TsunamiSection.jsx"
+    },
+    {
+      "key": "from boundary",
+      "fallback": null,
+      "file": "components\\geofence\\BreachSimulatorCard.jsx"
+    },
+    {
+      "key": "genuinely distinct sea corridors",
+      "fallback": null,
+      "file": "components\\route\\RouteCalculationCriteriaBanner.jsx"
+    },
+    {
+      "key": "knots cruise",
+      "fallback": null,
+      "file": "components\\route\\RouteOptimizationAuditCard.jsx"
+    },
+    {
+      "key": "outside statutory boundary.",
+      "fallback": null,
+      "file": "components\\geofence\\BreachSimulatorCard.jsx"
+    },
+    {
+      "key": "▶ Run Visual Approach Demo",
+      "fallback": null,
+      "file": "components\\geofence\\BreachSimulatorCard.jsx"
+    },
+    {
+      "key": "⚠️ WARNING ACTIVE",
+      "fallback": null,
+      "file": "components\\geofence\\BreachSimulatorCard.jsx"
+    },
+    {
+      "key": "🚨 BREACHED",
+      "fallback": null,
+      "file": "components\\geofence\\BreachSimulatorCard.jsx"
+    },
+    {
+      "key": "🚨 DANGER ACTIVE",
+      "fallback": null,
+      "file": "components\\geofence\\BreachSimulatorCard.jsx"
+    },
+    {
+      "key": "🟢 SAFE",
+      "fallback": null,
+      "file": "components\\geofence\\BreachSimulatorCard.jsx"
+    }
+  ],
+  "raw_texts_by_file": {
+    "pages\\AboutPage.jsx": [
+      "&bull;"
+    ],
+    "pages\\AskPage.jsx": [
+      "ORCA",
+      "ORCA",
+      "One Intelligence System",
+      "AI controls map automatically from your conversation",
+      "New Session",
+      "AI Conversation",
+      "🗺️ AI controls map",
+      "💬 Full Chat View",
+      "How can ORCA assist?",
+      "Agent Notice",
+      "Stop & Send",
+      "AI Multilingual",
+      "Send"
+    ],
+    "pages\\RoutePlannerPage.jsx": [
+      "10.5 && location.lat",
+      "76.6 && location.lon"
+    ],
+    "components\\about\\PlatformVisionCard.jsx": [
+      "7,516 km",
+      "2.3M km²"
+    ],
+    "components\\alerts\\ActiveMarineAlertsCard.jsx": [
+      "Continuous Surveillance across 14 Autonomous Maritime Domains",
+      "Condition Simulator (Judge Testing):",
+      "Reset",
+      "RULE:",
+      "Official Data Sources: IMD, INCOIS, ISRO MOSDAC, Indian Coast Guard, GEBCO & GFW",
+      "Open Full Tactical Alerts Center"
+    ],
+    "components\\alerts\\AlertsFeedCard.jsx": [
+      ": isWarn ?",
+      "(Advisory Text)",
+      "(Weather Chart)"
+    ],
+    "components\\alerts\\AlertSubscriptionCard.jsx": [
+      "85.0 && lat"
+    ],
+    "components\\chat\\AgentPipelineTrace.jsx": [
+      "17. Agent Activity Visualization · Multi-Agent Trace",
+      "Executed Agents",
+      "🔬 Formulated Data Requirements (\"What data do I need?\"):",
+      "Variables Targeted:",
+      "🛰️ Autonomously Discovered Operational Datasets:",
+      "ARGS:",
+      "Telemetry Output:",
+      "Verified L4",
+      "Operational Schema v2.6",
+      "Spatial:",
+      "Temporal:",
+      "Updated:",
+      "Official Portal",
+      "Verified Operational Data Feeds",
+      "Multi-Source Conflict Resolution: ACTIVE",
+      "Deterministic Fusion Engine v2.4"
+    ],
+    "components\\chat\\AIRecommendationPanel.jsx": [
+      ": isDanger ?",
+      "ORCA Agentic Decision Engine",
+      "Calculated Risk Index",
+      "Calibrated specifically against your vessel craft envelope.",
+      "Vessel Threshold",
+      "PASS",
+      "Wave Limit &lt; 1.5m",
+      "Active wave (0.9m) conforms to safety envelope.",
+      "Geofence Compliance",
+      "CLEARED",
+      "Zero Military Buffer",
+      "Route clear of ITR Chandipur & naval firing ranges.",
+      "Active Marine Watch Items",
+      "Afternoon thermal breeze: Expect surface wind gusts up to 24 km/h around 14:00–16:30 IST.",
+      "Keel clearance: Maintain soundings &gt;15m near coastal shallows; consult GEBCO bathymetry layer.",
+      "International Maritime Boundary Line: Maintain at least 5 nautical miles standoff from Palk Bay IMBL.",
+      "Explainability & Deductive Rationale",
+      "Specialized Multi-Agent Autonomous Core",
+      "Zero Hallucination · Deterministic Gates Active"
+    ],
+    "components\\chat\\ChatInteractiveMap.jsx": [
+      "🌊 Isobath Depth Contour",
+      "Depth:",
+      "Keel Clearance:",
+      "GEBCO 2026 Bathymetric Grid",
+      "🌱 Chlorophyll-a Plankton",
+      "Density:",
+      "Productivity:",
+      "Copernicus Marine / MODIS-Aqua",
+      "Distance:",
+      "SST:",
+      "Chlorophyll:"
+    ],
+    "components\\chat\\CommandBar.jsx": [
+      "Agent Communication Issue"
+    ],
+    "components\\chat\\ContextualReasoningCard.jsx": [
+      "Contextual Reasoning Engine (#9)",
+      "Operational Horizon:",
+      "Compound Factor Synthesis:",
+      "Actionable Operational Decision:",
+      "Craft Limits vs Live Sea State",
+      "Voyage Advisory:",
+      "Primary Limitation:",
+      "Mitigation / Stand-Down Window:"
+    ],
+    "components\\chat\\DeterministicSafetyCard.jsx": [
+      "Deterministic Safety Decision (#10)",
+      "Immutable Safety Rules Enforced",
+      "Evaluated Forecast Time:",
+      "Decision Protocol",
+      "Deterministic Rule Engine v10.4",
+      "Operational Decision",
+      "Risk Score",
+      "Clear Deterministic Reasons",
+      "Evaluated Hazard Dimensions (8 Parameters)",
+      "Vessel-Specific Limits Applied",
+      "Sources:",
+      "Deterministic Rule ID: #10-DSE",
+      "Typical Length",
+      "Design Draft",
+      "Max Safe Wave",
+      "Max Safe Wind"
+    ],
+    "components\\chat\\EvidenceExplainabilityCard.jsx": [
+      "“Why did ORCA say this?”",
+      "1. Evidence Panel (7 Fields)",
+      "2. Source Provenance Flow",
+      "Recommendation",
+      "Why? (Operational Reasoning):",
+      "Sources (Verified Institutional Feeds):",
+      "Data Used (Deterministic Marine Variable Matrix):",
+      "Variable",
+      "Live Value",
+      "Safe Operating Limit",
+      "Delta / Evaluation",
+      "Source Origin",
+      "Status",
+      "Route Passage Audit & Rejection Reasons:",
+      "Reason:",
+      "Select Variable to Inspect Provenance Trace:",
+      "Decision verified against institutional threshold catalog. Zero synthetic data.",
+      "Formula Weighting",
+      "Verified Feeds:",
+      "INCOIS",
+      "Copernicus",
+      "IMD",
+      "Open-Meteo",
+      "GEBCO",
+      "Expand 7-Field Evidence Panel"
+    ],
+    "components\\chat\\SpatialReasoningMapCard.jsx": [
+      "Open Map",
+      "CARTO",
+      "&copy;",
+      "OSM",
+      "Distance:",
+      "Bearing:",
+      "Depth:",
+      "Source:",
+      "DISTANCE & BEARING"
+    ],
+    "components\\chat\\TemporalReasoningCard.jsx": [
+      "Expression:",
+      "Forecast Assessment:",
+      "› Recommendation:",
+      "Peak Wave (Hs)",
+      "Max Wind Gust",
+      "Thunderstorm",
+      "Observed SST",
+      "15-Yr Decadal Mean",
+      "Thermal Anomaly (ΔT)",
+      "Z-Score Index"
+    ],
+    "components\\dashboard\\OceanSnapshotGrid.jsx": [
+      "= 27.0 && temp",
+      "km/h"
+    ],
+    "components\\data\\DataFreshnessDashboard.jsx": [
+      "Automated background fetching running on exact official schedules (15m, 1h, 3h, daily IST, statutory).",
+      "Monitored Data Streams",
+      "Mean Ingestion Latency",
+      "On-Disk Telemetry Cache",
+      "Spatial Query Resolution",
+      "Automated Multi-Cadence Release Schedule &amp; Execution Timers",
+      "Indian Standard Time (IST / UTC+05:30)",
+      "Authoritative Dataset Ingestion Schedule Matrix (All 22 Datasets)",
+      "Continuous background daemon polling every 15s",
+      "Dataset Name",
+      "Category",
+      "Primary Agency",
+      "Official Timing / Schedule",
+      "Auto-Ingest Frequency",
+      "Next Run Due",
+      "Current Scope",
+      "Age:"
+    ],
+    "components\\ecology\\BhuvanEcologyCard.jsx": [
+      "km²",
+      "km²",
+      "km²"
+    ],
+    "components\\ecology\\EcoStatusBanner.jsx": [
+      ": isBuffer ?"
+    ],
+    "components\\effects\\WaterSplashEffect.jsx": [
+      "0 || this.alpha"
+    ],
+    "components\\fisheries\\FAOProductivityChart.jsx": [
+      "FAO India"
+    ],
+    "components\\fisheries\\FishingSuitabilityGauge.jsx": [
+      "= 28.0 && sst",
+      "= 27.0 && sst",
+      "= 0.15 && chl"
+    ],
+    "components\\fisheries\\FleetActivityCard.jsx": [
+      "&gt; 200 km out"
+    ],
+    "components\\fisheries\\TargetSpeciesGuide.jsx": [
+      "= minT && liveSst"
+    ],
+    "components\\geofence\\GeofenceMapCanvas.jsx": [
+      "Type:",
+      "Nations:",
+      "Date:",
+      "⚠ Crossing prohibited without statutory clearance"
+    ],
+    "components\\layout\\Footer.jsx": [
+      "ORCA"
+    ],
+    "components\\layout\\SystemStatus.jsx": [
+      "ORCA"
+    ],
+    "components\\layout\\TopNav.jsx": [
+      "ISRO",
+      "ORCA"
+    ],
+    "components\\map\\MapCanvas.jsx": [
+      "Sector:",
+      "Depth Range:",
+      "Distance Offshore:",
+      "Sea Surface Temp:",
+      "Chlorophyll-a:",
+      "Treaty Type:",
+      "Nations:",
+      "Length:",
+      "Date:",
+      "⚠ International Maritime Boundary Line &bull; Cross-border transit prohibited without authorization",
+      "Surface Current Flow Vector",
+      "Speed:",
+      "Heading:",
+      "Position:",
+      "Copernicus Marine Physics Reanalysis",
+      "Sector:",
+      "LAND",
+      "MARINE",
+      "Discharge Type:",
+      "Peak Current:",
+      "Detected Time:",
+      "Atmospheric CAPE:",
+      "Sector:",
+      "Threat Level:",
+      "CAPE Energy:",
+      "Cloud Top Temp:",
+      "Flash Rate:",
+      "Wind Gusts:",
+      "Action:",
+      "NO THREAT FOR INDIA",
+      "⚠️ THREAT ACTIVE",
+      "Region:",
+      "Origin Time:",
+      "Focal Depth:",
+      "Distance to Coast:",
+      "Evaluation:",
+      "INCOIS National Tsunami Warning Centre (ITEWC / MoES)",
+      "IN-SITU CTD",
+      "Latest Fix:",
+      "Surface SST:",
+      "Surface Salinity:",
+      "Thermocline Depth:",
+      "Max Profile Depth:",
+      "INCOIS / Euro-Argo / NOAA Profiling Array",
+      "🟢 LIVE NOW",
+      "Sector / State:",
+      "Significant Wave Height (SWH):",
+      "Dominant Period:",
+      "Wave Direction:",
+      "Sea State:",
+      "🟢 LIVE NOW",
+      "10m Wind Velocity:",
+      "Peak Gusts:",
+      "Meteorological Heading:",
+      "Beaufort Evaluation:",
+      "🟢 LIVE NOW",
+      "Swell Height:",
+      "Swell Period:",
+      "Approach Angle:",
+      "Surge Risk:",
+      "🟢 LIVE NOW",
+      "SST Value:",
+      "Thermal Zone:",
+      "Predicted Significant Wave:",
+      "Threat Status:",
+      "Chlorophyll-a Plankton",
+      "Concentration:",
+      "Productivity:",
+      "Bathymetry Contour",
+      "Depth Sounding:",
+      "Geomorphic Zone:",
+      "Distance:",
+      "Distance (km):",
+      "Spatial Filter Active",
+      "AI Map Control"
+    ],
+    "components\\map\\SpatialReasoningOverlay.jsx": [
+      "Coordinates:",
+      "Active Filter:",
+      "Distance:",
+      "Bearing:",
+      "Sea Temp (SST):",
+      "Chlorophyll-a:",
+      "Sector:",
+      "Source:"
+    ],
+    "components\\mascot\\OrcaMascotCompanion.jsx": [
+      "ORCA Companion",
+      "Chat with ORCA",
+      "Click to open"
+    ],
+    "components\\notifications\\NotificationCenter.jsx": [
+      "⚡ Condition Engine Simulator (Judge Demonstration):",
+      "Reset All",
+      "Filter:",
+      "Sync",
+      "All Clear — No Hazardous Triggers",
+      "CONDITION:",
+      "View in Alerts Panel",
+      "Map View"
+    ],
+    "components\\ocean\\OceanBiochemistryCard.jsx": [
+      "PSU",
+      "mmol/m³",
+      "mmol/m³"
+    ],
+    "components\\ocean\\OceanSensorRibbon.jsx": [
+      "mg/m³",
+      "PSU",
+      "kts",
+      "km/h"
+    ],
+    "components\\reports\\ReportDocumentModal.jsx": [
+      "Export JSON",
+      "Safe &lt; 1.5m",
+      "Safe &lt; 30 km/h",
+      "Safe &lt; 1.5m",
+      "Optimal 27.5 - 29.5°C",
+      "Active Food Chain",
+      "High Aggregation",
+      "Target Sector / Zone",
+      "Distance &amp; Bearing",
+      "Water Depth",
+      "Target Commercial Species",
+      "Coordinates",
+      "Kasikoilkuppam Thermal Front",
+      "30.1 km &bull; 84° E",
+      "Skipjack Tuna, Indian Mackerel, Sardinella",
+      "Designated Fish Landing Centre:",
+      "Projected Fuel Conservation:",
+      "Sovereign Zone:",
+      "Authorized Fishing",
+      "Eco-Speed Restriction:",
+      "Vessel speed strictly capped under 10 knots within 5 nautical miles of designated MPA boundaries.",
+      "Zero-Discharge Rule:",
+      "Absolute prohibition of oily bilge, plastic, or untreated waste discharge under MARPOL Annex V.",
+      "Turtle Excluder Device (TED):",
+      "Mandatory active rigging for bottom trawlers across olive ridley nesting season tracks.",
+      "Official Synoptic Situation:",
+      "Atmospheric CAPE:",
+      "Tropical Cyclone Track:",
+      "Buffer &gt; 350 km",
+      "Convective Lightning:",
+      "Low Activity",
+      "Period: 9.2s (Safe)"
+    ],
+    "components\\route\\ExportRouteModal.jsx": [
+      "Standard for Garmin, Raymarine &amp; Furuno Chartplotters",
+      "Compatible with QGIS, ArcGIS &amp; Web GIS Engines",
+      "Tabular waypoint list with bearings &amp; distances"
+    ],
+    "components\\route\\RouteCalculationCriteriaBanner.jsx": [
+      "How the 3 Routes Were Derived From These Conditions:"
+    ],
+    "components\\route\\RouteMapCanvas.jsx": [
+      "Sector:",
+      "SST Temp:",
+      "Chlorophyll-a:",
+      "Productivity:",
+      "Wind Speed:",
+      "Wave Height:",
+      "Swell:",
+      "Current:",
+      "Depth Sounding:",
+      "Vessel:",
+      "Click line to select this profile",
+      "Click line to select this profile",
+      "Click line to select this profile",
+      "Depth:",
+      "Dist:",
+      "Hdg:",
+      "Cumul. Distance:",
+      "True Course Heading:",
+      "Bathymetric Depth:",
+      "Distance:",
+      "Zone:",
+      "Action:",
+      "Select ports &amp; click &quot;Calculate Routes&quot; to compute sea corridors",
+      "Active Sea Lanes",
+      "Click to toggle",
+      "Fastest",
+      "Active",
+      "Balanced",
+      "Active",
+      "Safest",
+      "Active",
+      "Awaiting Calculation",
+      "&rarr;"
+    ],
+    "components\\route\\RouteRiskProfileChart.jsx": [
+      "Distance:",
+      "Position:",
+      "Sounding Depth:",
+      "Wave / Wind:",
+      "Dominant Factor:"
+    ],
+    "components\\route\\RouteSelectorCard.jsx": [
+      "&bull;",
+      "&bull;"
+    ],
+    "components\\safety\\SeasonalBanCard.jsx": [
+      "15 Apr – 14 Jun",
+      "01 Jun – 31 Jul"
+    ]
+  }
+}

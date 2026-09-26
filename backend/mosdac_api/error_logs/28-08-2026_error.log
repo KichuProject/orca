@@ -1,0 +1,12 @@
+28-08-2026 19:42:39 - ERROR - 
+
+Error Fetching Data from 'fetch_and_download_data()' method.
+
+Error Message: {error_message}
+Error Details: 
+Traceback (most recent call last):
+  File "E:\sih\backend\mosdac_api\mdapi.py", line 402, in fetch_and_download_data
+    res.raise_for_status()
+  File "C:\Users\Kishore\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\models.py", line 1167, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 500 Server Error:  for url: https://mosdac.gov.in/apios/datasets.json?datasetId=E06SCT_L4_UI&startTime=2026-08-21&endTime=2026-08-28&count=7&boundingBox=68.0%2C5.0%2C94.0%2C25.0&startIndex=101

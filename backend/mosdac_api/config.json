@@ -1,0 +1,21 @@
+{
+    "user_credentials": {
+        "username/email": "kishore1052007",
+        "password": "Kishore1052007@"
+    },
+    "search_parameters": {
+        "datasetId": "E06OCM_L4_AC",
+        "startTime": "2026-09-22",
+        "endTime": "2026-09-24",
+        "count": "1",
+        "boundingBox": "68.0,5.0,94.0,25.0",
+        "gId": ""
+    },
+    "download_settings": {
+        "download_path": "E:\\sih\\data\\live_cache\\mosdac\\oceansat3_chl",
+        "organize_by_date": false,
+        "skip_user_input": true,
+        "generate_error_logs": true,
+        "error_logs_dir": "e:\\sih\\backend\\mosdac_api\\error_logs"
+    }
+}

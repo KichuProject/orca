@@ -1,0 +1,78 @@
+# ── Data Directories & Archives ─────────────────────────────────────────
+/data/
+/data.zip
+backend/data/
+*.wav
+*.mp3
+*.zip
+*.tar.gz
+*.csv.gz
+.venv/
+
+# Frontend source components (explicitly include data components)
+!frontend/src/
+!frontend/src/**
+
+# ── Environment & Secret Keys ──────────────────────────────────────────
+.env
+.env.*
+*.env
+backend/.env
+frontend/.env
+frontend/.env.local
+frontend/.env.*.local
+application/.env
+application/.env.local
+
+# Allow example environment templates
+!.env.example
+!*.env.example
+!**/.env.example
+
+# ── Python & Virtual Environments ──────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+.pytest_cache/
+.coverage
+htmlcov/
+venv/
+.venv/
+ENV/
+env/
+
+# ── Node & Frontend Dependencies / Builds ──────────────────────────────
+node_modules/
+frontend/node_modules/
+frontend/dist/
+frontend/dist-ssr/
+.npm
+.eslintcache
+*.tsbuildinfo
+
+# ── IDE & Operating System ─────────────────────────────────────────────
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db

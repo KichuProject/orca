@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "ORCA Marine Intelligence",
+    "slug": "orca-marine",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "backgroundColor": "#f4f7fb",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.orca.marine",
+      "infoPlist": {
+        "NSMicrophoneUsageDescription": "Allow ORCA to access your microphone to ask marine questions using your voice.",
+        "NSLocationWhenInUseUsageDescription": "Allow ORCA to access your live GPS location for coastal navigation and PFZ marine advisories."
+      }
+    },
+    "android": {
+      "package": "com.orca.marine",
+      "permissions": [
+        "android.permission.RECORD_AUDIO",
+        "android.permission.ACCESS_FINE_LOCATION",
+        "android.permission.ACCESS_COARSE_LOCATION"
+      ],
+      "adaptiveIcon": {
+        "backgroundColor": "#ffffff",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-sharing",
+      "expo-audio"
+    ]
+  }
+}
