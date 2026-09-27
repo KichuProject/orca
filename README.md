@@ -23,7 +23,6 @@
   <img src="https://img.shields.io/badge/PyTorch-CUDA%2012.4-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" alt="PyTorch" />
   <img src="https://img.shields.io/badge/ISRO-MOSDAC%20%26%20Bhuvan-FF9933?style=flat-square&logo=spacex&logoColor=white" alt="ISRO" />
   <img src="https://img.shields.io/badge/INCOIS-PFZ%20%26%20Ocean-0052CC?style=flat-square&logo=internetexplorer&logoColor=white" alt="INCOIS" />
-  <img src="https://img.shields.io/badge/License-MIT-green?style=flat-square" alt="MIT License" />
 </p>
 
 ---
@@ -42,7 +41,7 @@ India has a **7,516 km coastline**, over **4 million artisanal fishermen**, and 
 ## 🗺️ Master Architecture & System Overview
 
 <p align="center">
-  <img src="orca_architecture_diagram.png" alt="ORCA Master Architecture Diagram" width="95%" />
+
 </p>
 
 ### 🔄 End-to-End System Pipeline
@@ -416,6 +415,5 @@ python test_master_suite.py
 ---
 
 <p align="center">
-  <b>Built with ❤️ to protect Indian fishermen and empower the sustainable Blue Economy.</b><br/>
-  <sub>© 2026 ORCA Project. Released under the MIT License.</sub>
+  <b>Built with Love to protect Indian fishermen and empower the sustainable Blue Economy.</b>
 </p>
