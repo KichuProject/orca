@@ -34,7 +34,7 @@ India has a **7,516 km coastline**, over **4 million artisanal fishermen**, and 
 2. **Cognitive & Language Barrier:** Artisanal fishermen lack desktop connectivity, speak localized coastal dialects (Tamil, Telugu, Malayalam, Bengali, Odia, Gujarati, Marathi), and cannot interpret raw scientific NetCDF or GRIB files.
 3. **Hallucination Risk in LLMs:** Standard conversational models cannot be trusted with human life—if an LLM recommends sailing into a 3.5m swell or incoming cyclone, fatalities occur.
 
-**ORCA (Ocean & Real-Time Coastal Analytics)** is an enterprise-grade, autonomous marine AI platform developed for the **Smart India Hackathon (SIH)**. It fuses sovereign satellite Earth Observation data from **ISRO MOSDAC, Bhuvan, INCOIS, Copernicus Sentinel-3, NOAA, and NASA** into a synchronized spatio-temporal knowledge graph. Driven by an orchestrator of **31 collaborative AI agents**, a **deterministic mathematical safety engine**, and **omnichannel access (Web GIS, Android/iOS Mobile App, and 2G Keypad Feature Phone IVR)**, ORCA delivers instant, explainable, and life-critical decisions to anyone at sea.
+**ORCA (Ocean & Real-Time Coastal Analytics)** is an enterprise-grade, autonomous marine AI platform developed for the **fishermen, coastal authorities, marine researchers, and other stakeholders involved in coastal and ocean management**. It fuses sovereign satellite Earth Observation data from **ISRO MOSDAC, Bhuvan, INCOIS, Copernicus Sentinel-3, NOAA, and NASA** into a synchronized spatio-temporal knowledge graph. Driven by an orchestrator of **31 collaborative AI agents**, a **deterministic mathematical safety engine**, and **omnichannel access (Web GIS, Android/iOS Mobile App, and 2G Keypad Feature Phone IVR)**, ORCA delivers instant, explainable, and life-critical decisions to anyone at sea.
 
 ---
 
@@ -403,7 +403,7 @@ python test_master_suite.py
 
 ## 👥 Authors & Acknowledgements
 
-- **Developed for:** Smart India Hackathon (SIH)
+- **Developed for:** fishermen, coastal authorities, marine researchers, and other stakeholders involved in coastal and ocean management
 - **Primary Domain:** Marine Exploration, Blue Economy & Coastal Security
 - **Data Acknowledgements:**
   - **ISRO MOSDAC & NRSC Bhuvan** for Indian sovereign Earth Observation satellite products.
